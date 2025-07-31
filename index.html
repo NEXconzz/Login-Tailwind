@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <div class="flex flex-col-reverse md:flex-row h-screen">
+    <div class="w-full md:w-1/2 md:relative">
+      <div 
+        class="flex flex-col h-full items-center justify-center w-full md:w-3/4 md:absolute right-0"
+        >
+        <div class="p-10 bg-white shadow-2xl">
+          <h1 class="text-center font-bold text-3xl">Login page</h1>
+          <p class="text-center mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quisquam, voluptatum, quia, voluptas, repellendus, doloribus,
+          </p>
+          <from action="">
+            <div class="my-5">
+              <label for="email" class="font-bold">E-mail</label>
+              <input 
+              type="email" 
+              name="email" 
+              id="email" 
+              placeholder="yourmail@gmail.com"
+                class="w-full border border-gray-300 p-2" />
+            </div>
+                <div class="my-5">
+                  <label for="password" class="font-bold">Password</label>
+                  <input type="password" name="password" id="password" placeholder="your password"
+                    class="w-full border border-gray-300 p-2" />
+                </div>
+                <button type="submit"
+                  class="bg-gray-950 text-white w-full py-3 mb-4 cursor-pointer hover:border hover:bg-white hover:border-gray-950 hover:text-black tarnsition-all">
+                  SIGN IN
+                </button>
+              </from>
+              <button
+                class="bg-gray-800 text-white w-full py-3 mb-4 cursor-pointer hover:border hover:bg-white hover:border-gray-950 hover:text-black tarnsition-all">
+                SIGN UP
+              </button>
+              <div class="w-full text-center mt-5">
+                <a href="" class="text-center text-blue-600 w-full">
+                  Lupa Password
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 bg-[url('asset/Peace.png')] bg-cover bg-no-repeat bg-center h-full md:h-full">
+
+      <div
+        class="w-full h-full backdrop-brightness-50 flex flex-col justify-center align-middle items-center text-center text-white">
+
+        <div class="lg:w-9/12 w-11/12">
+          <h1 class="text-5xl">Welcome Back</h1>
+          <p class="mt-10">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quisquam, voluptatum, quia, voluptas, repellendus, doloribus,
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+
+</html>
